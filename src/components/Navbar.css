@@ -1,0 +1,171 @@
+/* Navbar Styles */
+#Navbar {
+    background-color: black;
+    margin-top: 0px;
+    z-index: 1000; /* Ensures navbar stays on top */
+    position: relative;
+}
+
+.custom-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3em;
+    margin-top: 0.5em;
+}
+
+.title1 {
+    font-size: 1rem;
+    margin-bottom: -0.9em;
+    color: rgb(255, 255, 255);
+}
+
+.title2 {
+    font-size: 1.7rem;
+    color: #dc3545;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.title2:hover {
+    color: #dc3545;
+}
+
+.title3 {
+    margin-top: -0.8em;
+    font-size: 0.9rem;
+    text-align: right;
+    width: 100%;
+    color: gray;
+}
+
+.items
+{
+    margin-right: 550px;
+}
+
+/* Navbar Toggle Button */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:hover {
+    border-color: #727fac !important;
+    color: #727fac !important;
+}
+
+.navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(114, 127, 172)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Ensure Navbar Items Are Visible */
+#navbarSupportedContent {
+    margin-left: 6em !important;
+    display: flex !important;
+    align-items: center;
+}
+
+/* Navbar Links */
+.navbar-brand,
+.nav-link,
+.dr {
+    color: white !important;
+    margin-left: 0.5em !important;
+    margin-top: 0.2em !important;
+}
+
+/* Navbar Hover Effect */
+#navbarSupportedContent .nav-link:hover {
+    background: linear-gradient(to right, #ff69b4, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Dropdown Menu */
+.dropdown-menu .dropdown-item:hover {
+    color: #e42ebc !important;
+    background-color: rgb(214, 214, 214);
+}
+
+/* Navbar Buttons */
+.custom-navbar .btn-outline-success {
+    color: white;
+    border-color: white;
+}
+
+.custom-navbar .btn-outline-success:hover {
+    color: #0d79df !important;
+    border-color: #0d79df !important;
+    background-color: transparent !important;
+}
+
+.navbar-center {
+    margin: 0 auto;
+}
+
+/* Profile Image */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Course Box */
+.course-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Carousel */
+.carousel-inner {
+    height: 70vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Box Content */
+.box {
+    margin-top: 2em;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    height: 80%;
+    width: 100%;
+}
+
+.box-content p {
+    color: #ffffff;
+}
+
+.box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.box-content {
+    margin-top: 1.2em;
+    position: relative;
+    z-index: 1;
+    color: #e0c6c6;
+    font-weight: bolder;
+}
